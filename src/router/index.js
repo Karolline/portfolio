@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
 const routes = [
     {
-        path: '/dd',
+        path: '/portfolio/test',
         name: 'test',
         component: HelloWorld
     }
