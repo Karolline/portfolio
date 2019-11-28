@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     Hello
-    <router-link to="/test">클릭</router-link>
+    <router-link to="/dd">클릭</router-link>
     <router-view />
   </div>
 </template>
