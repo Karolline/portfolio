@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    Hello ^-^ || 
+    바뀐거 맞나요..
     <router-link to="/portfolio/test">클릭</router-link>
     <router-view />
   </div>
