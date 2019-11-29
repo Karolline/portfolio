@@ -13,7 +13,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-    mode: 'history', // 아마 url로 직접 접속하면 오류날 것
+    mode: 'history',
     routes: routes
 })
 
