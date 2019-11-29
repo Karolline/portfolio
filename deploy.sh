@@ -9,7 +9,7 @@ npm run build
 
 # push
 git add -A
-echo -e "커밋 메시지를 입력하세요: c "
+echo -e "커밋 메시지를 입력하세요: "
 read word
 git commit -m "$word"
 
