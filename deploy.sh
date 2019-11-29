@@ -4,12 +4,14 @@
 set -e
 
 # build
-echo Building. this may take a minute...
+echo 빌드합니다..
 npm run build
 
 # push
 git add -A
-git commit -m "자동빌드 및 푸시"
+echo -e "커밋 메시지를 입력하세요: c "
+read word
+git commit -m "$word"
 
 # deploy
 git push -u origin master
