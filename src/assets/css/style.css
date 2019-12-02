@@ -1,0 +1,43 @@
+/* 폰트 출처: https://noonnu.cc/ */
+@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Handon3gyeopsal300g'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal300g.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+html {
+    -webkit-text-size-adjust: antialised;
+}
+
+body {
+    padding-top: 56px; /* navbar 높이만큼 여백 부여 */
+    background-image: url(../images/bg_img.svg);
+    /* 이미지 출처: https://www.freepik.com/search?dates=any&format=search&page=1&query=pastel&selection=1&sort=popular */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #000;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: RIDIBatang;
+    transform: rotate(-0.00000001deg);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+/* .nav-lined {
+    border-bottom: thick solid #fff;
+} */
+
+/* .content-div {
+    background-color: #fff;
+    opacity: 50%;
+    height: 1000px;
+}
+.content-div img {
+    opacity: 100%;
+} */
+.content-div img {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2em;
+    padding: 20px 20px 20px 20px;
+}

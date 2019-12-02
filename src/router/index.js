@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HelloWorld from '../components/HelloWorld'
+import Intro from '@/Views/Intro'
 
 Vue.use(VueRouter)
 
 const routes = [
     {
-        path: '/portfolio/test',
-        name: 'test',
-        component: HelloWorld
+        path: '/portfolio/intro',
+        name: 'intro',
+        component: Intro
     }
 ]
 

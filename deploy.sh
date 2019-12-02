@@ -9,7 +9,7 @@ npm run build
 
 cd docs
 cp index.html 404.html
-find . -name ".DS_Store" -delete
+# find . -name ".DS_Store" -delete
 
 # deploy
 echo 배포합니다..

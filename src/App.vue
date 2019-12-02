@@ -1,14 +1,20 @@
 <template>
   <div id="app">
-    바뀐거 맞나요..
-    <router-link to="/portfolio/test">클릭</router-link>
+    <app-header />
     <router-view />
+    <div style="height:1000px"></div>
   </div>
 </template>
 
 <script>
-
+import AppHeader from './components/AppHeader'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    AppHeader
+  }
 }
 </script>
+
+<style src="@/assets/css/style.css">
+</style>
