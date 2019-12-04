@@ -84,8 +84,8 @@
         }
     ],
     "layout": {
-        "width": 1200,
-        "height": 600,
+        "width": 950,
+        "height": 500,
         "paper_bgcolor": "rgba(255, 255, 255, 0)",
         "plot_bgcolor": "rgba(255, 255, 255, 0.2)",
         "xaxis": {
@@ -115,6 +115,9 @@
             }
         },
         "showlegend": false,
-        "hovermode": "closest"
+        "hovermode": "closest",
+        "margin": {
+            "l": 0, "r": 0, "b": 0, "t": 0
+        }
     }
 }
