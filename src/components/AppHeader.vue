@@ -7,7 +7,7 @@
         <b-collapse id="nav-text-collapse" is-nav>
             <b-navbar-nav class="ml-auto">
                 <b-nav-item href="/portfolio/intro">이력소개</b-nav-item>
-                <b-nav-item href="#">프로젝트</b-nav-item>
+                <b-nav-item href="/portfolio/projects">프로젝트</b-nav-item>
                 <b-nav-item href="#">블로그</b-nav-item>
                 <b-nav-item href="https://github.com/Karolline" target="_sub">깃허브</b-nav-item>
                 <b-nav-item href="#">연락하기</b-nav-item>

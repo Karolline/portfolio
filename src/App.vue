@@ -2,7 +2,6 @@
   <div id="app">
     <app-header />
     <router-view />
-    <div style="height:1000px"></div>
   </div>
 </template>
 

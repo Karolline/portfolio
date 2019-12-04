@@ -8,6 +8,7 @@ html {
 
 body {
     padding-top: 56px; /* navbar 높이만큼 여백 부여 */
+    padding-bottom: 100px;
     background-image: url(../images/bg_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
