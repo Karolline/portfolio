@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <app-header />
+    <spy-scroll />
     <router-view />
   </div>
 </template>
 
 <script>
 import AppHeader from './components/AppHeader'
+import SpyScroll from '@/components/SpyScroll'
+
 export default {
   name: 'app',
   components: {
-    AppHeader
-  },
-  created () {
-    // window.addEventListener("hashchange", function() { scrollBy(0, -60) });
+    AppHeader, SpyScroll
   }
 }
 </script>

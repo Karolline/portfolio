@@ -32,7 +32,7 @@ export default {
         // }
     },
     mounted () {
-        var pathname = document.location.pathname;
+        var pathname = this.$router.history.current.path;
         var current = pathname.substring(11, pathname.length);
         document.getElementById(current).classList.add('reading');
         

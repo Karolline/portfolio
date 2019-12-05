@@ -12,3 +12,10 @@
         ></b-embed>
     </div>
 </template>
+
+<script>
+
+export default {
+    name: 'Projects'
+}
+</script>

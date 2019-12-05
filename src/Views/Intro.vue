@@ -1,8 +1,7 @@
 <template>
-    <b-container class="content-div mt-5">
-        <spy-scroll />
+    <b-container class="content-div">
         <!-- 작은 내비게이션바 만들어서 특정 div로 이동시키기 할까? -->
-        <b-row id="life-graph" class="text-center mt-5 mb-2">
+        <b-row id="life-graph" class="text-center mb-2">
             <b-col><h3>인생 그래프</h3></b-col>
         </b-row>
         <b-row>
@@ -32,17 +31,12 @@
 import Collapse from '@/components/IntroCollapse'
 import LifeGraph from '@/components/IntroLifeGraph'
 import Tech from '@/components/IntroTech'
-import SpyScroll from '@/components/SpyScroll'
 
 export default {
     name: 'Intro',
     components: {
-        Collapse, LifeGraph, Tech, SpyScroll
+        Collapse, LifeGraph, Tech
     }
     
 }
 </script>
-
-<style scoped>
-
-</style>

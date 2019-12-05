@@ -1,7 +1,11 @@
 {
-    "Intro": [
+    "intro": [
         ["#life-graph", "인생 그래프"],
         ["#knowledge", "보유 지식"],
         ["#technology", "보유 기술"]
+    ],
+    "projects": [
+        ["#company", "회사 프로젝트"],
+        ["#personal", "개인 프로젝트"]
     ]
 }
