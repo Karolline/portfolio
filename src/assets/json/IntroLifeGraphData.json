@@ -27,8 +27,8 @@
             "textposition": "bottom center",
             "type": "scatter",
             "hovertemplate": [
-                " <br>롯데그룹 편의점계열사의<br>영업관리자로 입사하여,<br>현장근무(점장)를<br>11개월간 하였습니다.<br> ",
-                " <br>현장에서 각종 프로세스를<br>IT시스템으로 자동화시키는 꿈을 꾸게 되어<br>직무변경을 위해 퇴사를 감행하였습니다.<br> "
+                " <b>코리아세븐 입사</b><br><br>롯데그룹 편의점계열사의<br>영업관리자로 입사하여,<br>현장근무(점장)를<br>11개월간 하였습니다.",
+                " <b>코리아세븐 퇴사</b><br><br>현장에서 각종 프로세스를<br>IT시스템으로 자동화시키는 꿈을 꾸게 되어<br>직무변경을 위해 퇴사를 감행하였습니다."
             ],
             "marker": {
                 "symbol": "star-diamond-dot",
@@ -48,8 +48,8 @@
             "textposition": "bottom center",
             "type": "scatter",
             "hovertemplate": [
-                " <br>머시기 저시기<br> ",
-                " <br>머시기 저시기<br> "
+                " <b>인공지능 교육과정 입과</b><br><br>머시기 저시기",
+                " <b>인공지능 교육과정 수료</b><br><br>머시기 저시기"
             ],
             "marker": {
                 "symbol": "star-diamond-dot",
@@ -69,8 +69,8 @@
             "textposition": "bottom center",
             "type": "scatter",
             "hovertemplate": [
-                " <br>머시기 저시기<br> ",
-                " <br>머시기 저시기<br> "
+                " <b>씨에스리 입사</b><br><br>머시기 저시기",
+                " <b>재직중</b> "
             ],
             "marker": {
                 "symbol": "star-diamond-dot",
@@ -84,8 +84,7 @@
         }
     ],
     "layout": {
-        "width": 950,
-        "height": 500,
+        "height": 400,
         "paper_bgcolor": "rgba(255, 255, 255, 0)",
         "plot_bgcolor": "rgba(255, 255, 255, 0.2)",
         "xaxis": {
@@ -99,12 +98,12 @@
             "range": [-0.5, 2]
         },
         "annotations": [
-            { "x": "2017-07-24", "y":-0.25, "xref": "x", "yref": "y", "text": "17`07<br><br>코리아세븐<br>입사", "showarrow": false},
-            { "x": "2018-06-20", "y":-0.25, "xref": "x", "yref": "y", "text": "18`06<br><br>코리아세븐<br>퇴사", "showarrow": false},
-            { "x": "2018-09-10", "y":-0.25, "xref": "x", "yref": "y", "text": "18`09<br><br>인공지능 개발자<br>양성과정 입과", "showarrow": false},
-            { "x": "2019-01-31", "y":-0.25, "xref": "x", "yref": "y", "text": "19`02<br><br>인공지능 개발자<br>양성과정 수료", "showarrow": false},
-            { "x": "2019-04-15", "y":-0.25, "xref": "x", "yref": "y", "text": "19`04<br><br>씨에스리<br>입사", "showarrow": false},
-            { "x": "2020-01-01", "y":-0.2, "xref": "x", "yref": "y", "text": "20`01<br><br><br>재직중", "showarrow": false}
+            { "x": "2017-07-24", "y":-0.2, "xref": "x", "yref": "y", "text": "17`07<br><br>입사", "showarrow": false},
+            { "x": "2018-06-20", "y":-0.2, "xref": "x", "yref": "y", "text": "18`06<br><br>퇴사", "showarrow": false},
+            { "x": "2018-09-10", "y":-0.2, "xref": "x", "yref": "y", "text": "18`09<br><br>입과", "showarrow": false},
+            { "x": "2019-01-31", "y":-0.2, "xref": "x", "yref": "y", "text": "19`02<br><br>수료", "showarrow": false},
+            { "x": "2019-04-15", "y":-0.2, "xref": "x", "yref": "y", "text": "19`04<br><br>입사", "showarrow": false},
+            { "x": "2020-01-01", "y":-0.12, "xref": "x", "yref": "y", "text": "20`01", "showarrow": false}
         ],
         "hoverdistance": -1,
         "hoverlabel": {

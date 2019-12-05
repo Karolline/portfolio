@@ -9,6 +9,8 @@ html {
 body {
     padding-top: 56px; /* navbar 높이만큼 여백 부여 */
     padding-bottom: 100px;
+    padding-left: 20%; 
+    padding-right: 20%;
     background-image: url(../images/bg_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,16 +27,9 @@ body {
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
-/* .nav-lined {
-    border-bottom: thick solid #fff;
-} */
-
-/* .content-div {
-    background-color: #fff;
-    opacity: 50%;
-    height: 1000px;
+.spy-scroll {
+    position: fixed;
+    left: 10px;
+    font-size: 1.7vh;
+    background-color: 'rgba(255, 255, 255, 0.5)';
 }
-.content-div img {
-    opacity: 100%;
-} */
-
