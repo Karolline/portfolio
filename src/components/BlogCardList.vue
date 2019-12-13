@@ -3,7 +3,7 @@
         <b-card-group columns>
             <a href="https://blog.naver.com/1126pc/221721147398"  target="_sub">
                 <b-card title="Vue 앱 Github Pages로 배포하기"
-                        img-src="@/assets/images/blog1.png"
+                        img-src="images/blog01.png"
                         img-height="250" img-width="100"
                 >
                     <b-card-text class="small text-muted">
@@ -33,7 +33,7 @@
 
                 <a href="https://blog.naver.com/1126pc/221693045759"  target="_sub">
                     <b-card title="OpenLayers5 - 지도 위에 차트 그리기"
-                            img-src="https://postfiles.pstatic.net/MjAxOTEwMzBfMjA4/MDAxNTcyNDE0MjUwMTg1.7xo5acE-SZ6N9hEl6Ri3TttDkDeUt-BrKkis7rIOQ3Eg._vp04vAu8w9sbIaAGLpSIDCNGacnk4wQ9H9hgNImVsQg.PNG.1126pc/image.png?type=w773"
+                            img-src="images/blog02.png"
                             
                     >
                         <b-card-text class="small text-muted">
@@ -44,7 +44,7 @@
 
                 <a href="https://blog.naver.com/1126pc/221539919568"  target="_sub">
                     <b-card title="ag-Grid Header Components"
-                            img-src="https://postfiles.pstatic.net/MjAxOTA1MTdfNDMg/MDAxNTU4MDY3NDMwMTQ1.x1dAQhbfCld_eg5ra9HEzfB8sFOyoIZ2AFqDsFxkCW0g.AAWZ0X7kXVnDAFcBxMrb8x2JAFnKDFRXTtn36fzdN5sg.PNG.1126pc/image.png?type=w773"
+                            img-src="images/blog03.png"
                             
                     >
                         <b-card-text class="small text-muted">

@@ -1,6 +1,6 @@
 {
     "company": [
-        {"index": 0, "title": "IT 지식제공 챗봇", "content": "길게 설명쓰기", "img": "https://picsum.photos/1024/480/?image=10"},
+        {"index": 0, "title": "IT 지식제공 챗봇", "content": "길게 설명쓰기", "img": "images/carousel01.jpg"},
         {"index": 1, "title": "빅데이터 분석 솔루션", "content": "길게 설명쓰기", "img": "https://picsum.photos/1024/480/?image=12"}
     ],
     "personal": [
