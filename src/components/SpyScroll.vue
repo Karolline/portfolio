@@ -25,7 +25,7 @@ export default {
         var pathname = this.$router.history.current.path;
         var current = pathname.substring(11, pathname.length);
         this.datas = spyscrollContent[current];
-        console.log(this.datas, spyscrollContent[current])
+        // console.log(this.datas, spyscrollContent[current])
     }
 }
 </script>

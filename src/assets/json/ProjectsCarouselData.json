@@ -1,0 +1,12 @@
+{
+    "company": [
+        {"index": 0, "title": "IT 지식제공 챗봇", "content": "길게 설명쓰기", "img": "https://picsum.photos/1024/480/?image=10"},
+        {"index": 1, "title": "빅데이터 분석 솔루션", "content": "길게 설명쓰기", "img": "https://picsum.photos/1024/480/?image=12"}
+    ],
+    "personal": [
+        {"index": 0, "title": "포트폴리오 사이트", "content": "길게 설명쓰기", "img": "https://picsum.photos/1024/480/?image=10"},
+        {"index": 1, "title": "Anomy", "content": "길게 설명쓰기", "img": "https://picsum.photos/1024/480/?image=12"},
+        {"index": 2, "title": "인성면접봇", "content": "길게 설명쓰기", "img": "https://picsum.photos/1024/480/?image=10"},
+        {"index": 3, "title": "인생그래프 메이커", "content": "길게 설명쓰기", "img": "https://picsum.photos/1024/480/?image=12"}
+    ]
+}

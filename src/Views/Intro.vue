@@ -1,7 +1,7 @@
 <template>
     <b-container class="content-div">
         <!-- 작은 내비게이션바 만들어서 특정 div로 이동시키기 할까? -->
-        <b-row id="life-graph" class="text-center mb-2">
+        <b-row id="life-graph" class="text-center mb-2 mt-5">
             <b-col><h3>인생 그래프</h3></b-col>
         </b-row>
         <b-row>

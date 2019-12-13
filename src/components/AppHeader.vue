@@ -6,11 +6,17 @@
 
         <b-collapse id="nav-text-collapse" is-nav>
             <b-navbar-nav class="ml-auto">
-                <b-nav-item id="intro" href="/portfolio/intro">이력소개</b-nav-item>
+                <!-- <b-nav-item id="intro" href="/portfolio/intro">이력소개</b-nav-item>
                 <b-nav-item id="projects" href="/portfolio/projects">프로젝트</b-nav-item>
-                <b-nav-item id="blog" href="#">블로그</b-nav-item>
+                <b-nav-item id="blog" href="/portfolio/blog">블로그</b-nav-item>
                 <b-nav-item id="github" href="https://github.com/Karolline" target="_sub">깃허브</b-nav-item>
-                <b-nav-item id="contact" href="#">연락하기</b-nav-item>
+                <b-nav-item id="contact" href="#">연락하기</b-nav-item> -->
+                <!-- 속도개선. 단 style 건드려야 함 -->
+                <b-nav-item><router-link to="/portfolio/intro">이력소개</router-link></b-nav-item>
+                <b-nav-item><router-link to="/portfolio/projects">프로젝트</router-link></b-nav-item>
+                <b-nav-item><router-link to="/portfolio/blog">블로그</router-link></b-nav-item>
+                <b-nav-item id="github" href="https://github.com/Karolline" target="_sub">깃허브</b-nav-item>
+                <b-nav-item><router-link to="/portfolio/contact">연락하기</router-link></b-nav-item>
             </b-navbar-nav>
         </b-collapse>
     </b-navbar>
@@ -47,5 +53,8 @@ export default {
 .reading {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 1em;
+}
+.nav-link {
+    color: rgba(0, 0, 0, 0.7);
 }
 </style>
